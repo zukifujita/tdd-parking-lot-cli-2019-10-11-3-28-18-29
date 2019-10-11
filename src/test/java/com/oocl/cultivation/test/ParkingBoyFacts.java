@@ -53,4 +53,9 @@ class ParkingBoyFacts {
         //then
         assertNotEquals(car, otherCar);
     }
+
+    @Test
+    void customer_gives_wrong_ticket_then_no_car_fetched() {
+
+    }
 }
